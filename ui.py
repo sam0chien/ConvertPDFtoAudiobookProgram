@@ -87,7 +87,7 @@ class UI:
         if pdf:
             self.play_button.config(stat='normal')
             self.clear_button.config(stat='normal')
-            self.text_box.config(fg='white')
+            self.text_box.config(fg='black')
 
     def speak(self):
         # Get whole content in text box
@@ -127,7 +127,7 @@ class UI:
         self.clear_button.config(stat='disabled')
 
     def check(self, event):
-        self.text_box.config(fg='white')
+        self.text_box.config(fg='black')
         # Check whether text box is not empty
         if self.text_box.compare('end-1c', '!=', '0.0'):
             self.play_button.config(stat='normal')

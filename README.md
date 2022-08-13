@@ -1,3 +1,4 @@
-# JUST A CONVERT PDF TO AUDIOBOOK PROGRAM
+# ConvertPDFtoAudiobookProgram
+Read aloud PDF with Polly.
 
-### In order to playsound properly -> pip3 install PyObjC
+AWS credential is needed.
